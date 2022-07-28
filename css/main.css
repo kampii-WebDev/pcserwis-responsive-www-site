@@ -337,6 +337,11 @@ a {
   color: #ac0100 !important;
 }
 
+.main-color {
+  color: #ac0100;
+  text-shadow: 1px 1px 4px #ac0100;
+}
+
 header {
   color: #fff;
 }
@@ -344,7 +349,9 @@ header {
 header h1 {
   margin-bottom: 10px;
   font-size: 36px;
-  font-family: monospace;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px #fff;
 }
 
 header p {
