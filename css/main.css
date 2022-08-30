@@ -463,6 +463,16 @@ header .dot {
   margin-top: 14px;
 }
 
+.contact a {
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.contact a:hover {
+  color: #D10000;
+}
+
 footer {
   position: static;
   display: -webkit-box;

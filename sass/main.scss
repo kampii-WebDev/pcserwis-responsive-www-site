@@ -295,6 +295,15 @@ header {
 		font-weight: normal;
 		margin-top: 14px;
 	}
+
+	a {
+		color: $white;
+		transition: color 0.3s;
+	}
+
+	a:hover {
+		color: $main-color;
+	}
 }
 
 footer {
